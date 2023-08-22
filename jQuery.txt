@@ -1,0 +1,18 @@
+# jQuery
+
+jQuery란?
+1. 엘리먼트를 선택하는 강력한 방법과
+2. 선택된 엘리먼트들을 효율적으로 제어할 수 있는 다양한 수단을 제공하는
+3. 자바스크립트 라이브러리
+
+문법
+$(제어대상).method1().method2();
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+
+래퍼 wrapper 사용
+(function($) {
+  // jQuery 코드가 위치함
+  $('body').html('hello world');
+})(jQuery)

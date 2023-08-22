@@ -1,0 +1,38 @@
+# css
+
+class 호출
+.class명 {
+	// 내용
+}
+
+id 호출
+#id명 {
+	// 내용
+}
+
+element 호출
+element명 {
+	// 내용
+}
+
+글씨 볼드처리
+<b></b>
+
+공백 주기
+&nbsp;
+
+글자 가운데 정렬
+text-align: center;
+
+리스트 앞 기호 없애기
+list-style: none;
+
+position: relative;
+position: absolute;
+
+표 가운데 정렬
+margin-left: auto;
+margin-right: auto;
+
+표 셀들 사이 간격 주기
+border-spacing: 수치;

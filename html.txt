@@ -1,0 +1,95 @@
+# html
+
+<meta>
+문서의 부가적인 정보를 제공하는 태그
+meta 태그의 http-equiv 속성은 http 헤더에 정보 또는 값을 제공하는 content 속성
+
+// 구성
+<html lang="ko"> // 문서의 전체 범위
+	<head> // 눈에 보이지 않는 정보를 나타내는 범위
+		<meta charset="utf-8">
+		<meta name="viewport" content="내용">
+		<title></title>
+	</head>
+	<body> // 눈에 보이는 구조를 나타내는 범위
+		<header></header>
+		<main></main>
+		<footer></footer>
+	</body>
+</html>
+
+<style> 태그에 css 작성 가능
+<link> 태그로 html과 css 연결 가능
+<link rel="stylesheet" href="./파일명.css">
+
+<script> 태그로 html과 css 연결 가능
+<script src="폴더이름/파일명.js"></script>
+
+<div>
+
+표 만들기
+<table>
+	<tr><th></tr> // 첫 줄만 <th>
+	<tr><td></tr>
+</table>
+
+이미지 첨부
+<img src="폴더명/파일명.확장자">
+
+<span>
+
+<button>
+
+<a href="/"></a>
+
+<p>
+하나의 문단을 나타냄. 단락처럼 묶고 싶은 요소를 <p>태그로 묶을 수 있음.
+
+div : (블록) 특별한 의미가 없는 영역 구분을 위한 요소
+
+h1 : (블록) 제목을 의미하는 요소 (h1 ~ h6)
+
+p : (블록) 문장을 구분하는 요소
+
+img : (인라인) 이미지를 삽입하는 요소
+
+ul : (블록) 순서가 필요없는 목록의 집합을 의미 (ol은 순서 있음)
+
+li : (블록) 목록 내 각 항목
+
+a : (인라인) 다른/같은 페이지로 이동하는 하이퍼링크를 지정하는 요소
+
+    target="_blank" : 새로운 탭에서 페이지 열게 하기
+
+span : (인라인) 특별한 의미가 없는 구분을 위한 요소
+
+br : (인라인) 줄바꿈 요소
+
+input : (인라인/블록) 사용자가 데이터를 입력하는 요소
+
+    type="radio" name="fruits" : 그룹(name이 같은거)에서 1개만 입력 받음
+
+label : (인라인) 라벨 가능 요소의 제목
+
+table : (테이블 요소, 블록) 표 요소, 행과 열의 집합
+
+tr : (테이블) 행을 지정하는 요소 (행이 먼저임)
+
+td : (테이블) 열을 지정하는 요소
+
+주석
+ctrl(cmd) + / : 자동으로 주석 처리
+
+전역 속성
+
+전체 영역에서 모두 사용할 수 있는 속성
+
+title : 요소의 정보나 설명을 지정
+
+style : 요소에 적용할 css 스타일 지정
+
+class : 요소의 중복 가능한 이름
+
+id : 요소의 고유한 이름
+
+data-이름="데이터" : 요소에 데이터 지정
